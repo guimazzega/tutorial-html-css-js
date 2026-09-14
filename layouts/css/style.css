@@ -1,0 +1,27 @@
+#header {
+    width: 100%;
+    height: 100px;
+    background-color: #707060;
+}
+
+#main{
+    display: flex;
+}
+
+#sidebar {
+    width: 300px;
+    height: 400px;
+    background-color: #023d0f;
+}
+
+#content {
+    width: calc(100% - 300px);
+    height: 400px;
+    background-color: #2c2b2a;
+}
+
+#footer {
+    width: 100%;
+    height: 150px;
+    background-color: #549eed;
+}
