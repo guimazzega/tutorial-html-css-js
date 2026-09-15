@@ -34,8 +34,12 @@
                 <label for="surnameUser">Sobrenome:</label>
                 <input type="text" name="surnameUser" id="surnameUser" placeholder="Sobrenome">
 
-                <label for="passwordUser">Senha:</label>
-                <input type="password" name="passwordUser" id="passwordUser" placeholder="Senha">
+                <label for="cpfuser">CPF:</label>
+                <input type="text" name="cpfuser" id="cpfuser" placeholder="CPF">
+
+                <label for="cellphone">Telefone:</label>
+                <input type="text" name="cellphone" id="cellphone" placeholder="Telefone">
+               
             </fieldset>
                 <h3>Qual seu perfil de investidor?</h3>
 
@@ -88,9 +92,48 @@
                 <label for="investimentgoalUser">Objetivo de Investimento</label>
                 <textarea name="investimentgoalUser" id="investimentgoalUser" rows="5" placeholder="Descreva seu objetivo de investimento..."></textarea>
 
+                
+
+
+                <fieldset>
+                    <legend>Dados de Acesso</legend>
+                    <label for="emailUser">E-mail:</label>
+                    <input type="email" name="emailUser" id="emailUser" placeholder="Digite seu e-mail">
+
+                    <label for="passworduser">Senha:</label>
+                    <input type="password" name="passworduser" id="passworduser" placeholder="Digite sua senha">
+
+                    
+                </fieldset>
+
+                <h3>Qual sua renda mensal?</h3>
+
+                <div> 
+                    <input type="radio" name="perfilInvestidor" id="2000" value="2000">
+                    <label for="2000">Até R$2.000,00</label>
+                </div>
+                <div>
+                    <input type="radio" name="perfilInvestidor" id="2a5" value="2a5">
+                    <label for="2a5">R$2.000,01 a R$5.000,00</label>
+                </div>
+                <div>
+                    <input type="radio" name="perfilInvestidor" id="5000" value="5000">
+                    <label for="5000">R$5.000,01 ou mais</label>
+                </div>
+
+                <h3>Termos e Condições</h3>
+
+                <div>
+                    <input type="checkbox" name="term" id="termos" value="termos">
+                    <label for="termos">Você aceita os termos e condições?</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="term" id="promocoes" value="promo">
+                    <label for="promocoes">Você aceita receber promoções via e-mail e SMS?</label>
+                </div>
+               
                 <input type="submit" value="Cadastrar">
 
-                
             </form>
         </div>
          

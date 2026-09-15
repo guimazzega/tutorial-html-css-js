@@ -39,7 +39,7 @@ div#logo h1{
 }
 
 div#logo h1 span{
-    color: #ff9466;
+    color:  #9fbd85;
 }
 
 nav ul{
@@ -57,11 +57,11 @@ nav ul li a{
 }
 
 nav ul li a:hover{
-    color: #ff9466;
+    color:  #9fbd85;
 }
 
 nav ul li a.active{
-    color: #b75830;
+    color:  #9fbd85;
 }
 
 main{
@@ -122,5 +122,5 @@ form input,select, textarea {
 }
 
 input[type="submit"] {
-    background-color: #ff9466;
+    background-color: #9fbd85;
 }
