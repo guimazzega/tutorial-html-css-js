@@ -1,44 +1,45 @@
-html, body {
+html, body{
     margin: 0;
     padding: 0;
     color: #fff;
     font-family: "SF Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
 
-body > header {
-    background-color: #000000;
+body > header{
+    background-color: #000;
     height: 100px;
 }
-.wrapper {
+
+.wrapper{
+    max-width: 1400px;
     height: inherit;
-    width: 1400px;
     margin: 0 auto;
 }
 
-body > header .wrapper {
+body > header div.wrapper{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-#logo {
+div#logo{
     display: flex;
     align-items: center;
     gap: 10px;
 }
 
-#logo img {
+div#logo img{
     width: 60px;
     height: 60px;
 }
 
-#logo h1 {
+div#logo h1{
     font-size: 26px;
     margin: 5px 0 0 0;
 }
 
-#logo h1 span {
-    color: #9fbd85;
+div#logo h1 span{
+    color: #ff9466;
 }
 
 nav ul{
@@ -49,50 +50,77 @@ nav ul{
     gap: 20px;
 }
 
-nav ul li a {
-     color: #fff;
+nav ul li a{
+    color: #fff;
     text-decoration: none;
     font-size: 18px;
 }
 
-nav ul li a:hover {
-    color: #9fbd85;
+nav ul li a:hover{
+    color: #ff9466;
 }
 
-nav ul li a.active {
-    color: #9fbd85;
+nav ul li a.active{
+    color: #b75830;
 }
 
-main {
-    background-color: #302e2e;
-    height: 500px;
+main{
+    background-color: #1c1c1c;
+    min-height: 500px;
     padding: 20px;
 }
 
-footer {
-    background-color: #020202;
+footer{
+    background-color: #000;
     height: 200px;
 }
 
-table {
+table{
     border-collapse: collapse;
 }
 
-td, th {
-    padding: 10px 20px;
-    border: 1px solid;
-}
-
-table, tr, th, td {
+ table, th, td{
     border-color: #fff;
     border-width: 1px;
     border-style: solid;
 }
 
-a {
+td, th{
+    padding: 10px;
+}
+
+a{
     color: #fff;
+    text-decoration: none;
 }
 
 a:visited {
-    color: #fff;
+    color: #e3e3e3;
+}
+
+form {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+form label {
+    margin:  20px 0 0 0;
+}
+
+form input,select, textarea {
+    padding: 5px 8px;
+    border-radius: 15px;
+    border: none;
+}
+
+input[type="submit"] {
+    background-color: #ff9466;
 }
