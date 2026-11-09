@@ -39,7 +39,7 @@ div#logo h1{
 }
 
 div#logo h1 span{
-    color:  #9fbd85;
+    color: #ff9466;
 }
 
 nav ul{
@@ -57,11 +57,11 @@ nav ul li a{
 }
 
 nav ul li a:hover{
-    color:  #9fbd85;
+    color: #ff9466;
 }
 
 nav ul li a.active{
-    color:  #9fbd85;
+    color: #b75830;
 }
 
 main{
@@ -109,18 +109,19 @@ fieldset {
     display: flex;
     flex-direction: column;
     gap: 10px;
+    border: 1px solid #4b4b4b;
 }
 
-form label {
+label {
     margin:  20px 0 0 0;
 }
 
-form input,select, textarea {
+input, select, textarea {
     padding: 5px 8px;
     border-radius: 15px;
     border: none;
 }
 
 input[type="submit"] {
-    background-color: #9fbd85;
+    background-color: #b75830;
 }
