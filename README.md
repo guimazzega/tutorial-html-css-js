@@ -63,4 +63,19 @@
 - Como declarar variáveis e constantes no Javascript?
 - O que é um objeto do Javascript?
 - Quais as duas formas de acessar uma propriedade de um objeto?
-- Qual a diferençca de um array e um objeto?
+- Qual a diferença de um array e um objeto?
+- Como selecionar um elemento do DOM para manipular no javascript? getElementById, querySelector, closest
+- Como alterar o estilo de um elemento selecionado no js?
+- Como previnir o efeito padrão de envio de formulário de mudar de página ou recarregar a página?
+- Quais as formas de definir uma string no javascript? "..." '...' `..${variaveis}..`
+- Para que serve o innerHTML?
+- Para que serve o parâmetro this das funções?
+- Como o elemento.closest() busca elementos?
+- Para que serve o .textContent e o .value?
+
+- Revisão dia 23/11
+- Avaliação 2 dia 30/11
+
+- Substitutiva dia 14/12 (Recuperação)
+
+- IFA 17/12
